@@ -1,4 +1,4 @@
 # actions-test
 
 Status of Last Deployment:<br>
-<img src="https://github.com/yurakorabel/actions-test/workflows/My-GitHubActions/badge.svg?branch=main"><br>
+[![My-GitHubActions](https://github.com/yurakorabel/actions-test/actions/workflows/blank.yml/badge.svg)](https://github.com/yurakorabel/actions-test/actions/workflows/blank.yml)
