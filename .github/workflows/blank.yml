@@ -48,6 +48,9 @@ jobs:
     needs: [my_deploy]
   
     steps:
+    - name: Git clone my repo
+      uses: actions/checkout@v1   
+      
     - name: Print Hello (python)
       run : python3 hello.py
     
