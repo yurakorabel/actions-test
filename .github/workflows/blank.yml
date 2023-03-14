@@ -44,9 +44,9 @@ jobs:
       run : echo "Deplyo pakcage name is ${{ env.DEPLOY_PACKAGE_NAME }}"
       
   python:
-    runs-on ubuntu-latest
+    runs-on: ubuntu-latest
     
-    needs[my_deploy]
+    needs: [my_deploy]
     
     steps:
     - name: Git clone my repo
